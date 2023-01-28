@@ -13,5 +13,10 @@ public class controller1 {
 	public String saludo() {		
 		return "Welcome, Friends!";
 	}
+	
+	@GetMapping("/saludo2")
+	public String saludo2() {		
+		return "Welcome, Friends!";
+	}
 
 }
