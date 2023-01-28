@@ -11,12 +11,12 @@ public class controller1 {
 	
 	@GetMapping
 	public String saludo() {		
-		return "Welcome, Friends!";
+		return "Welcome, amigos 2!";
 	}
 	
 	@GetMapping("/saludo2")
 	public String saludo2() {		
-		return "Welcome, Friends saludo 2!";
+		return "Welcome, Pepe trueno saludo 2!";
 	}
 
 }
