@@ -16,7 +16,7 @@ public class controller1 {
 	
 	@GetMapping("/saludo2")
 	public String saludo2() {		
-		return "Welcome, Friends!";
+		return "Welcome, Friends saludo 2!";
 	}
 
 }
